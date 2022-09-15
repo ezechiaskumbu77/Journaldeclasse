@@ -1,0 +1,70 @@
+<section class="contact-section contact-page section-gap-top">
+    <div class="container">
+        <div class="contact-info">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="illustration-img text-center">
+                        <img src="assets/img/illustration/man-with-earth-02.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                    <div class="contact-info-content">
+                        <div class="section-title left-border mb-40">
+                            <span class="title-tag">Contactez-nous</span>
+                            <h2 class="title">Besoin d'aide?</h2>
+                        </div>
+                        <p>
+                            Revolutionnons l'éducations ensembles
+                        </p>
+                        <ul>
+                            <li class="phone">
+                                <a href="tel:+032486923148"><i class="far fa-phone"></i>+032486923148</a>
+                            </li>
+                            <li><i class="far fa-envelope-open"></i><a href="#">longayo.russell2@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form grey-bg">
+            <div class="row no-gutters justify-content-center">
+                <div class="col-10">
+                    <div class="section-title text-center mb-40">
+                        <h2 class="title">N'hésitez pas, contactez-nous</h2>
+                    </div>
+                    <form (submit)="sendEmail($event)">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="input-group mb-30">
+                                    <input type="text" placeholder="Votre nom complet" name="from_name" required>
+                                    <span class="icon"><i class="far fa-user-circle"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="input-group mb-30">
+                                    <input type="email" placeholder="Votre adresse mail" name="to_email" required>
+                                    <span class="icon"><i class="far fa-envelope-open"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="input-group mb-30">
+                                    <input type="text" placeholder="Votre numéro de téléphone" name="to_phone" required>
+                                    <span class="icon"><i class="far fa-phone"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-group textarea mb-30">
+                                    <textarea placeholder="Ecrire un message" name="message_html"></textarea>
+                                    <span class="icon"><i class="far fa-pencil"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="main-btn">Envoyez un message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

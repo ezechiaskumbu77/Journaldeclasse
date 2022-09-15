@@ -1,0 +1,30 @@
+<section class="about-section about-illustration-img section-gap">
+    <div class="container">
+        <div class="illustration-img">
+            <img src="assets/img/illustration/01.png" alt="img">
+        </div>
+        <div class="row no-gutters justify-content-lg-end justify-content-center">
+            <div class="col-lg-6 col-md-10">
+                <div class="about-text">
+                    <div class="section-title left-border mb-40">
+                        <span class="title-tag">A propos de nous</span>
+                        <h2 class="title">Secoundo </h2>
+                    </div>
+                    <p class="mb-25">
+                      Secoundo est l’outil idéal pour votre école.
+                      Il permet à chacun de pouvoir collaborer dans un environnement sécurisé.
+                      La force de Secoundo réside dans sa simplicité et son accessibilité.
+                      Entrez dans cette plateforme et découvrez-en les avantages
+                    </p>
+                    <p>
+                        Nous offrons à vos enfants, la meilleure partie du numérique
+                    </p>
+                    <ul class="about-list">
+                        <li *ngFor="let item of list"> <i class="far fa-check"></i> {{item.text}}</li>
+                    </ul>
+                    <a routerLink="/about" class="main-btn">Apprendre plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

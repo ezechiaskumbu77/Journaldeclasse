@@ -9,8 +9,8 @@ export class abouttextComponent implements OnInit {
 
   constructor() { }
   list = [
-    {text:"Business & Consultez-nous  Agency"},
-    {text:"Awards Winning Business Comapny"},
+    {text:"Consultez-nous pour une experience differente avec le numéque"},
+    {text:"La confiance caraterise le resenti de nos partenaires"},
   ];
 
   ngOnInit(): void {

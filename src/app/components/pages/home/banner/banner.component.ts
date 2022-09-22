@@ -12,7 +12,7 @@ export class BannerComponent implements OnInit {
     {
       img: "assets/img/banner/01.jpg",
       subtitle: "Secoundo",
-      title: "Un journal de classe<br>Numérique<br>Revolutionnaire"
+      title: "Un journal de classe<br>Numérique"
     },
     {
       img: "assets/img/banner/02.jpg",

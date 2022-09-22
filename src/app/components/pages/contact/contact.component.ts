@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 
 @Component({
   selector: 'app-contact',
@@ -8,6 +9,19 @@ import { Component, OnInit } from '@angular/core';
 export class ContactComponent implements OnInit {
 
   constructor() { }
+  public sendEmail(e: Event) {
+    e.preventDefault();
+    emailjs.sendForm('service_lvsa4ur', 'template_r5xmvro', e.target as HTMLFormElement, 'user_29s4lstLbqXve0caN7WH8')
+      .then((result: EmailJSResponseStatus) => {
+        alert("Ce formulaire a été envoyé.");
+        location.href = '#';
+        console.log(result.text);
+      }, (error) => {
+        alert("Ce formulaire a été envoyé.");
+        location.href = '#';
+        console.log(error.text);
+      });
+  }
   // Footer style
   classname = "";
   ftlogo = "assets/img/logo-2.png";
@@ -18,5 +32,6 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }

@@ -5,30 +5,29 @@
         "link": "/"
     },
     {
-        "id": 2,
+      "id": 2,
+      "linkText": "Services",
+      "child": true,
+      "submenu": [
+          {
+              "id": 21,
+              "link": "/services",
+              "linkText": "Nos services"
+          },
+
+          {
+              "id": 23,
+              "link": "/service-details/1",
+              "linkText": "Dertails"
+          }
+      ]
+  },
+    {
+        "id": 3,
         "link": "/about",
         "linkText": "A propos "
 
     },
-    {
-        "id": 3,
-        "linkText": "Services",
-        "child": true,
-        "submenu": [
-            {
-                "id": 31,
-                "link": "/services",
-                "linkText": "Nos services"
-            },
-
-            {
-                "id": 33,
-                "link": "/service-details/1",
-                "linkText": "Dertails"
-            }
-        ]
-    },
-
     {
         "id": 7,
         "link": "/contact",

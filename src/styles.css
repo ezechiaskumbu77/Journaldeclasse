@@ -125,7 +125,7 @@ pagination-template .ngx-pagination li a {
 	border: 2px solid #eaeaea;
 	background-color: #fff;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 300;
 	padding: 15px 21px!important;
 	margin: 0;
 	position: relative;
@@ -143,7 +143,7 @@ pagination-template .ngx-pagination li.current {
 	border: 2px solid #ff4a17;
 	background-color: #ff4a17;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 300;
 	padding: 15px 21px!important;
 	margin: 0;
 	position: relative;

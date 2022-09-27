@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "title": "Financial Planning"
+        "title": "Elève"
     },
     {
         "id": 2,
-        "title": "Relationship Buildup"
+        "title": "Enseignants"
     },
     {
         "id": 3,
-        "title": "Investement Planning"
+        "title": "Parents"
     },
     {
         "id": 4,
-        "title": "Marketing Strategy"
+        "title": "Partenaires"
     },
     {
         "id": 5,
-        "title": "Product Strategy"
+        "title": "Stratégies"
     }
 ]

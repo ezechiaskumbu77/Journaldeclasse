@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   // Home
   { path: '', loadChildren: () => import('./components/pages/Home/Home.module').then(m => m.HomeModule), data: { breadcrumb: 'Accueil' } },
-  { path: 'Home-v2', loadChildren: () => import('./components/pages/Home-v2/Home-v2.module').then(m => m.HomeV2Module), data: { breadcrumb: 'Accueil' } },
-  { path: 'Home-v3', loadChildren: () => import('./components/pages/Home-v3/Home-v3.module').then(m => m.HomeV3Module), data: { breadcrumb: 'Accueil' } },
+  // { path: 'Home-v2', loadChildren: () => import('./components/pages/Home-v2/Home-v2.module').then(m => m.HomeV2Module), data: { breadcrumb: 'Accueil' } },
+  // { path: 'Home-v3', loadChildren: () => import('./components/pages/Home-v3/Home-v3.module').then(m => m.HomeV3Module), data: { breadcrumb: 'Accueil' } },
   // Pages
   { path: 'about', loadChildren: () => import('./components/pages/about/about.module').then(m => m.aboutModule), data: { breadcrumb: 'Apropos de nous' } },
   // { path: 'team', loadChildren: () => import('./components/pages/team/team.module').then(m => m.TeamModule), data: { breadcrumb: 'Notre équpe' } },

@@ -9,11 +9,10 @@ export class WhyusComponent implements OnInit {
 
   constructor() { }
   list = [
-    {title:"Administration"},
-    {title:"Analytics"},
     {title:"Communication"},
-    {title:"Carnet de cotes"},
-    {title:"Suivi des élèves"},
+    {title:"Administration"},
+    {title:"Communication"},
+    {title:"Suivi général et individuel des élèves "},
   ];
 
   ngOnInit(): void {

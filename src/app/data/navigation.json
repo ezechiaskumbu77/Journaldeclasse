@@ -5,22 +5,9 @@
         "link": "/"
     },
     {
-      "id": 2,
-      "linkText": "Services",
-      "child": true,
-      "submenu": [
-          {
-              "id": 21,
+      "id": 21,
               "link": "/services",
-              "linkText": "Nos services"
-          },
-
-          {
-              "id": 23,
-              "link": "/service-details/1",
-              "linkText": "Dertails"
-          }
-      ]
+              "linkText": "Services"
   },
     {
         "id": 3,

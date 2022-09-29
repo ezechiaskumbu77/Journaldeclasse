@@ -29,6 +29,11 @@
 
     },
     {
+      "id": 5,
+      "link": "/portfolio",
+      "linkText": "Evenements"
+  },
+    {
         "id": 7,
         "link": "/contact",
         "linkText": "Contact"

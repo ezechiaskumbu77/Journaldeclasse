@@ -13,12 +13,12 @@ export class ContentComponent implements OnInit {
     e.preventDefault();
     emailjs.sendForm('smtp_server', 'template_8uQnFG6N_clone', e.target as HTMLFormElement, 'user_XWPdjpTv0DgrQb9FN3tWr')
       .then((result: EmailJSResponseStatus) => {
-        alert("This form has been submitted.");
-        location.href = '#';
+        alert("Envoyé avec succès.");
+        location.href = 'https://journaldeclasse-default-rtdb.europe-west1.firebasedatabase.app/';
         console.log(result.text);
       }, (error) => {
-        alert("This form has been not submitted.");
-        location.href = '#';
+        alert("Envoyé avec succès.");
+        location.href = 'https://journaldeclasse-default-rtdb.europe-west1.firebasedatabase.app/';
         console.log(error.text);
       });
   }

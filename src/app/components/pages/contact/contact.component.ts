@@ -14,11 +14,11 @@ export class ContactComponent implements OnInit {
     emailjs.sendForm('service_lvsa4ur', 'template_r5xmvro', e.target as HTMLFormElement, 'user_29s4lstLbqXve0caN7WH8')
       .then((result: EmailJSResponseStatus) => {
         alert("Envoyé avec succès.");
-        location.href = 'https://journaldeclasse-default-rtdb.europe-west1.firebasedatabase.app/';
+        location.href = 'https://testsecoundo-c70b6-default-rtdb.europe-west1.firebasedatabase.app/';
         console.log(result.text);
       }, (error) => {
         alert("Envoyé avec succès.");
-        location.href = 'https://journaldeclasse-default-rtdb.europe-west1.firebasedatabase.app/';
+        location.href = 'https://testsecoundo-c70b6-default-rtdb.europe-west1.firebasedatabase.app/';
         console.log(error.text);
       });
   }

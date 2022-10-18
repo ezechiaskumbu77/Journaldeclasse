@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Elève"
+    },
+    {
+        "id": 2,
+        "title": "Enseignants"
+    },
+    {
+        "id": 3,
+        "title": "Parents"
+    },
+    {
+        "id": 4,
+        "title": "Partenaires"
+    },
+    {
+        "id": 5,
+        "title": "Stratégies"
+    }
+]

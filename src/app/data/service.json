@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "icon": "flaticon-chart",
+        "shadowicon": "assets/img/icons/01.png",
+        "img": "assets/img/feature/01.jpg",
+        "title": "Communication",
+        "description": "",
+        "notes": [
+            "Un certain nombre de modules sont liés à la communication. Secoundo contient une messagerie que vous pouvez utiliser en toute sécurité, des forums de discussion, un tableau d’affichage pour les actualités … Ces modules sont faciles à utiliser et complètent vos canaux de communication existants."
+        ],
+        "features":[
+            {
+                "title":"Communication efficiente entre parents et élèves, ceux-ci",
+                "text":"Peuvent voir les travaux assignés à leurs enfants,Peuvent voir les différentes notes attribuées aux enfants, Peuvent voir les activités entreprises à l'école "
+            },
+            {
+                "title":"Communication enseignant(e)s entre et parents",
+                "text":"Ceux attribuent des tâches qui sont instantanement notifiées aux parents via l'application mobile; Toutes activités entreprisent à l'écoles sont monitorées par les parents sur une base quotidienne"
+            },
+            {
+                "title":"Communication efficiente avec les élèves",
+                "text":"Les élèves sont instantanement notifiés pour chaque travaux"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "flaticon-graph-1",
+        "shadowicon": "assets/img/icons/02.png",
+        "img": "assets/img/feature/02.jpg",
+        "title": "Administration",
+        "description": "Entrevoyez l'administration autrement",
+        "notes": [
+            "D’autres modules ont spécifiquement été développés pour alléger les tâches administratives. Le partage de fichiers yest beaucoup plus efficace"
+        ],
+        "features":[
+            {
+                "title":"Quels sont nos modules?",
+                "text":"Nos modules administratifs complètent les logiciels administratifs existants. Les modules les plus populaires sont le Journal de classe numérique, la Planification annuelle"
+            }
+
+        ]
+    },
+    {
+      "id": 2,
+      "icon": "flaticon-graph-1",
+      "shadowicon": "assets/img/icons/03.png",
+      "img": "assets/img/feature/03.jpg",
+      "title": "Suivi des élèves",
+      "description": "suivi des élèves Secoundo",
+      "notes": [
+          "L’enseignement ‘sur mesure’ et le bien-être sont des notions importantes dans chaque école. Pour pouvoir accompagner ces processus, Smartschool propose un Suivi des élèves flexible et puissant. Chaque école choisit comment organiser le suivi des élèves car chaque école a son propre public et sa propre culture scolaire. Nous avons compris que vous cherchez un logiciel qui évolue avec votre école. Testez et jugez par vous-même …          "
+      ],
+      "features":[
+          {
+              "title":"Système flexible",
+              "text":"Un dossier élève contient beaucoup d’informations qui peuvent être structurées dans des dossiers. Vous choisissez vous-même qui a accès à quelle information. Chaque dossier a son propre formulaire qui contient des champs. Vous choisissez vous-même à quoi doit ressembler ce formulaire. En résumé, vous créez la structure d’un dossier étape par étape. Si nécessaire, nos collaborateurs sont là pour vous aider."
+          },
+          {
+            "title":"Plan individuel d’apprentissage",
+            "text":"En plus des lignes de dossiers, le Suivi des élèves de Smartschool intègre également les résultats de Skore, les absences et la communication avec les parents. Cet affichage unique peut être créé en quelques clics. Vous pouvez donc élaborer le plan individuel d’apprentissage (PIA) de chaque élève. Dans un système de suivi traditionnel, la recherche d’informations peut prendre des heures, des jours … ou vous ne les retrouvez même plus.."
+          },
+          {
+            "title":"Enregistrer les absences",
+            "text":"l’Application mobile Secoundo permet de communiquer les absences au secrétariat. Chaque enseignant peut aussi consulter les absences par élève au sein du Suivi des élèves.Les éducateurs du secrétariat disposent d’une interface agréable à utiliser pour imprimer les attestations et les aperçus."
+          }
+
+      ]
+  }
+]

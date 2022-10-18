@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "text": "Éducation"
+    },
+    {
+        "id": 2,
+        "text": "Suivi des élèves"
+    },
+    {
+        "id": 3,
+        "text": "Carnet de cotes"
+    },
+    {
+      "id": 4,
+      "text": "Communication"
+  },
+  {
+    "id": 5,
+    "text": "Analytics"
+}
+]

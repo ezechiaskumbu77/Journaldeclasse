@@ -1,0 +1,121 @@
+<section class="advanced-tab section-gap">
+    <div class="container">
+        <!-- Tabs Buttons -->
+        <div class="tab-buttons">
+            <div ngbNav #nav="ngbNav" class="nav nav-tabs" id="nav-tab" role="tablist">
+                <li [ngbNavItem]="1">
+                    <a ngbNavLink>Communication </a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block left-image with-left-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-text">
+                                        <p class="mb-25">
+                                          Le journal de classe traditionnel peine à remplir son
+                                          rôle en tant qu’outil de communication entre l’équipe pédagogique et les parents.  Par conséquent, la communication entre ces derniers
+                                          et souvent biaisée par plusieurs facteurs (négligence, manque de contrôle) et cela affecte irréversiblement la progression de l'élève.
+                                          Raison pour laquelle, nous offrons aux parents et aux enseignants un espace sécurisé, dans lequel, ils pourront interagir.
+                                        </p>
+                                        <p class="mb-25">
+                                          Depuis la crise du Covid 19, nous encourageons par nos actions et accompagnons les établissements scolaires à
+                                          découvrir des solutions numériques transparentes et sécurisées. Convaincus que l’utilisation d’outils adéquats
+                                          dans les écoles peut faire la différence, nous serons heureux, lors d’une séance au sein de votre établissement, de
+                                          vous présenter toutes les possibilités de secoundo.
+                                        </p>
+                                        <a routerLink="/contact" class="main-btn main-btn-3">Alors rejoignez-nous.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <li [ngbNavItem]="2">
+                    <a ngbNavLink>Administration </a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block right-image with-right-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10 order-2 order-lg-1">
+                                    <div class="block-text">
+                                        <p>
+                                          Nous croyons qu'il est possible de réaliser certaines tâches manuelles par voie numérique. Grâce à un outil simple et efficace, nous avons mis en place un système numérique performant, regroupant l'ensemble des activités exécutées manuellement. Par exemple :
+                                          Prise de présence et absence
+                                          Attestation médicale
+                                          Date des contrôles et des examens
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block-3.png" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <li [ngbNavItem]="3">
+                    <a ngbNavLink>Philosophie</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block left-image with-left-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block-2.png" alt="img">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-text">
+                                        <p>
+                                          Notre philosophie est basée sur une prise de conscience professionnelle enfin de contribuer à l’apport du
+                                          numérique dans le secteur d’enseignement. Notre mission est de créer les applications numérique surmesure aux
+                                          établissements d’enseignement pour les permettre de se concentrer exclusivement à la formation scolaire des
+                                          élèves enfin de relever leurs niveau intellectuel.
+                                          Notre ambition est d’être au centre de la numérisation de l’enseignement primaire, secondaire et humanité pour
+                                          un accompagnement efficace de l’éducation nationale Belge et Congolaise.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <!-- <li [ngbNavItem]="4">
+                    <a ngbNavLink>Team Member</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block right-image with-right-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10 order-2 order-lg-1">
+                                    <div class="block-text">
+                                        <h2 class="title">Professional Business Guidance Agency</h2>
+                                        <p>
+                                            Sedut perspiciatis unde omnis iste natus error sit voluptat em accusantium
+                                            doloremque laudantium, totam raperiaeaque ipsa quae ab illo inventore
+                                            veritatis et quasi
+                                        </p>
+                                        <ul>
+                                            <li *ngFor="let item of list">
+                                                <i class="fas fa-check"></i>
+                                                {{item.text}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li> -->
+            </div>
+            <div [ngbNavOutlet]="nav"></div>
+        </div>
+    </div>
+</section>
